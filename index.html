@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+    
+<div id="playfield" class="board">
+    <h1 id="h1">Rock, Paper, Scissors, Lizard, Spock!</h1>
+    <img src="rock.jpg" class="rock" id="rock">
+    <img src="paper.jpg" class="paper" id="paper">
+    <img src="scissors.jpg" class="scissors" id="scissors">
+    <img src="lizard.png" class="lizard" id="lizard">
+    <img src="spock.jpg" class="spock" id="spock">
+    <p id="speech" class="speech">Test speech bla bla bla</p>
+    <h2 id="picker">Who do YOU pick?</h2>
+    <button class="rockbutton" onclick="rock()">Rock!</button>
+    <button class="paperbutton" onclick="paper()">Paper!</button>
+    <button class="scissorsbutton" onclick="scissors()">Scissors!</button>
+    <button class="lizardbutton" onclick="lizard()">Lizard!</button>
+    <button class="spockbutton" onclick="spock()">Spock!</button>
+    <h2 id="aiplayed" class="aiplayed"></h2>
+    <h2 id="result" class="result">Play to find out who will win!</h2>
+    <button id="replay" class="button" onclick="reload()" style="display: none;">Play Again</button>
+</div>
+    </body>
+</html>
